@@ -1,0 +1,178 @@
+body {
+  background-color: rgb(230, 221, 222);
+font-family: orpheuspro, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+img {
+
+  width: 100%;
+  filter: brightness(100%);
+}
+
+
+
+p {
+font-family: futura-pt, sans-serif;
+font-weight: 300;
+font-style: normal;
+   color: rgb(20,24,32);
+}
+
+.discover {
+  margin-top: 40px;
+}
+.oliver {
+  font-family: orpheuspro, serif;
+  color: rgb(20,24,32);
+  margin: 0px;
+  text-align: left;
+  line-height: 85px;
+  font-size: 70px;
+}
+
+.inglis {
+  font-family: orpheuspro, serif;
+  color: rgb(20,24,32);
+  margin: 0px;
+  text-align: right;
+  line-height: 30px;
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+
+.top {
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+}
+
+.mini1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+
+.mini2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+}
+
+.mini3 {
+  width: 100%;
+  text-align: left;
+  margin: 0;
+}
+
+.line1 {
+  height: 26px;
+  width: 100%;
+  position: relative;
+}
+
+.wrapper {
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  margin-top: 30px;
+
+}
+
+ul {
+padding: 0px;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+
+}
+h2 {
+  color: rgb(20,24,32);
+}
+
+li {
+   list-style-type: none;
+   display: inline;
+   width: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(20,24,32);
+}
+
+
+a:hover {
+  text-decoration: none;
+  color: rgb(80,80,80);
+}
+
+.card {
+  text-align: center;
+  margin: 20px;
+  padding: 30px;
+  border: 1px solid ;
+ background-color: rgb(230, 221, 222)
+ box-shadow: 0px 10px 30px ;
+
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+.oliver {
+  font-family: orpheuspro, serif;
+  color: rgb(20,24,32);
+  margin: 0px;
+  text-align: left;
+  line-height: 100px;
+  font-size: 90px;
+}
+.inglis {
+  font-family: orpheuspro, serif;
+  color: rgb(20,24,32);
+  margin: 0px;
+  text-align: right;
+  line-height: 30px;
+  font-size: 90px;
+  margin-bottom: 60px;
+}
+
+
+
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+.oliver {
+  font-family: orpheuspro, serif;
+  color: rgb(20,24,32);
+  margin: 0px;
+  text-align: left;
+  line-height: 85px;
+  font-size: 70px;
+}
+
+.inglis {
+  font-family: orpheuspro, serif;
+  color: rgb(20,24,32);
+  margin: 0px;
+  text-align: right;
+  line-height: 30px;
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+
+}
+
